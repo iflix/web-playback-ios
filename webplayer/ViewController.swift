@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Add your url here
-        if let videoURL:URL = URL(string: "https://app03.iflix.com/embed/movie/168568?autoplay=1&mute=0") {
+        if let videoURL:URL = URL(string: "https://m.iflix.com/embed/movie/219066?client_integration=maxstream-app&utm_source=maxstream-app&utm_medium=partner") {
             let request:URLRequest = URLRequest(url: videoURL)
             VideoView.load(request)
         }
